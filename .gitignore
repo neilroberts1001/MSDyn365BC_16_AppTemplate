@@ -3,5 +3,5 @@
 **/*.g.xlf
 **/*.rad
 **/rad.json
-*/.altemplates
-*/.alcache
+**/.altemplates
+**/.alcache
