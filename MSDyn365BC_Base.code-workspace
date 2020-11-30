@@ -7,14 +7,10 @@
 			"path": "TestApp"
 		},
 		{
-			"path": "Dependencies"
-		},
-		{
 			"path": "Scripts"
 		}
 	],
 	"settings": {
-		"al.packageCachePath": "..\\",
-		"navertical.IgnoreVerification": true
+		"al.packageCachePath": ".\\.alpackages"
 	}
 }
