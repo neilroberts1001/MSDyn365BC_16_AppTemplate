@@ -1,6 +1,4 @@
 {
-    "extensions.autoUpdate": false,
-    "files.autoSave": "off",
     "al.enableCodeAnalysis": true,
     "al.codeAnalyzers": [
         "${CodeCop}",
@@ -16,5 +14,12 @@
     "CRS.FileNamePattern": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
     "CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
     "CRS.FileNamePatternPageCustomizations": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
-    "CRS.ObjectNameSuffix": ".JDXSS"
+    "CRS.ObjectNameSuffix": ".JDXSS",
+    "alOutline.codeActionsOnSave": [
+        "SortProperties",
+        "SortVariables"
+    ],
+    "editor.codeActionsOnSave": {
+        "source.fixAll":true
+    }
 }
