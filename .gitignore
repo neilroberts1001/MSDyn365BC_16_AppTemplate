@@ -4,5 +4,5 @@
 **/*.rad
 **/rad.json
 */.altemplates
-*/.alcache
+**/.alcache
 **/.alstudio
